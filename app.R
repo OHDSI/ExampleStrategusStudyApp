@@ -44,7 +44,7 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(
   dbms = "postgresql",
   server = serverStr,
   port = Sys.getenv("shinydbPort"),
-  user = "marc",
+  user = "shinyproxy",
   password = Sys.getenv("shinydbPw")
 )
 
